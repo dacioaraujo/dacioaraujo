@@ -1,0 +1,20 @@
+int a = 10;
+int b = 20;
+int c = 200;
+
+if (a < b && a > c) // se
+{
+    Console.WriteLine("Verdadeiro!");
+}
+else if (a > c)
+{
+    Console.WriteLine("Executou elseif !");
+        
+}
+else // se não
+{
+    Console.WriteLine("É mentira!");
+}              
+
+
+Console.ReadLine();
